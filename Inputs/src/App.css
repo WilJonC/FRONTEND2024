@@ -1,0 +1,120 @@
+/* styles.css */
+.label {
+  margin-right: 8px;
+}
+/* Establece un estilo básico para todo el documento */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #cff1c5;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Centra el contenido principal */
+.main-container {
+  margin: auto;
+  width: 50%;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+  margin-top: 50px;
+}
+
+/* Estiliza los títulos de las secciones */
+.main-container h1 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Estilo general para los formularios */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Estiliza las etiquetas de los inputs */
+form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #34495e;
+}
+
+/* Estiliza los inputs de texto, contraseña y otros tipos */
+form input[type="text"],
+form input[type="password"],
+form input[type="email"],
+form input[type="date"],
+form input[type="datetime-local"],
+form input[type="month"],
+form input[type="number"],
+form input[type="search"],
+form input[type="tel"],
+form input[type="time"],
+form input[type="url"],
+form input[type="week"],
+form input[type="range"],
+form select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px; /* Espacio después del input */
+}
+
+/* Estiliza el checkbox y radio button de manera diferente */
+form input[type="checkbox"],
+form input[type="radio"] {
+  margin-right: 10px;
+}
+
+/* Botón con estilo y animación */
+button {
+  padding: 10px 20px;
+  border: 0;
+  background: linear-gradient(45deg, #6dd5ed, #2193b0);
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(45deg, #2193b0, #6dd5ed);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+button:active {
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  transform: translateY(2px);
+}
+
+
+/* Estilo para la parte inferior del formulario */
+.form-footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Pequeña separación entre líneas de texto en la parte inferior */
+.form-footer p {
+  margin-bottom: 5px;
+}
+
+.extra-container {
+  margin: auto;
+  width: 50%;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+  margin-top: 50px;
+  text-align: center;
+}
+
